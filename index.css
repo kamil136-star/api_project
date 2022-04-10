@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Nunito",sans-serif;
+    background: #f8f8f8;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .container1 {
+    width: 100vw;
+
+}
+
+
+
+.navbar {
+    height: 7vh;
+    width: 100vw;
+    /* background-color: silver; */
+    display: flex;
+}
+
+a {
+    color: black;
+    text-decoration: solid;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    padding: 25px;
+    gap: 60px;
+
+}
+h2{
+    padding-top: 18px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    color: black;
+}
+
+.img{
+    background-image: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    height: 100vh;
+    width: 100vw;
+
+}
+
+a:hover {
+    background-color: rgb(158, 158, 158);
+    border-radius: 30px;
+}
+
+  
+  .input{
+    text-align: center;
+    display: flex;
+        gap: 20px;
+        justify-content: center;
+   padding-top: 98px;
+  }
+  
+  input[type="submit"]{
+    padding: 15px 30px;
+    /* background: #ebe8e8; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    font-size: 20px;
+   
+  }
+  
+  .input input[type="text"]{
+    width: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 55px;
+    padding: 5px 10px;
+    /* background: #ffffff; */
+    border-radius: 20px;
+    font-size: 20px;
+  }
+
+
+.container{
+    height: 745px;
+    width: 100vw;
+}
+  
+
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h1{
+    padding-top: 100px ;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  .card p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:40px 0;
+    font-size:30px;
+  }
+
+  @media screen and (max-width: 575px) {
+      a{
+      display:none
+      }
+ .input{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .input input[type="text"]{
+    width: 300px;
+ }
+}
